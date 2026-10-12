@@ -5,7 +5,11 @@
 <p align="center">
   A supermarket shopping app built with <b>Flutter</b> and <b>Firebase</b>, with a
   customer storefront and an admin panel in one app.<br/>
-  Arabic &amp; English · Light &amp; Dark · Phones &amp; Tablets
+  Arabic &amp; English · Light &amp; Dark · Android, iOS &amp; Web
+</p>
+
+<p align="center">
+  <a href="https://marketgo-app.web.app"><b>🌐 Try the live web app → marketgo-app.web.app</b></a>
 </p>
 
 > 🔒 **The source code is private.** This repository only shows the project:
@@ -29,7 +33,8 @@
 **Everywhere**
 - Full Arabic (RTL) and English support
 - Light, dark and system themes
-- Responsive layouts for phones and tablets
+- Responsive layouts for phones, tablets and desktop browsers (side navigation rail on wide screens)
+- Runs on Android, iOS and the web
 - Works offline with cached data
 
 ## Screenshots
@@ -105,7 +110,8 @@ from the storefront to the admin panel.
 | Area | Tools |
 |---|---|
 | Framework | Flutter (Dart) |
-| Backend | Firebase Authentication, Cloud Firestore, Firebase Hosting |
+| Platforms | Android, iOS, Web |
+| Backend | Firebase Authentication, Cloud Firestore, Firebase Hosting (web app) |
 | Images | Cloudinary |
 | State management | Cubit (flutter_bloc) |
 | Navigation | go_router |
